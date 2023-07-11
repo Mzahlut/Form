@@ -1,0 +1,104 @@
+.flex__container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #444;
+    margin: 100px 100px;
+    padding: 20px;
+    border: 8px solid transparent ;
+    outline: 4px solid white;
+}
+
+.form{
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    order: 5;
+    
+}
+
+body{
+    background-color: #000;
+    justify-content: center;
+}
+
+.form__input {
+    width: 100%;
+    padding: 6px;
+    margin: 9px 0;
+    border: none;
+    border-bottom: 3px solid #0FA24D;
+    background-color: transparent;
+    color: #fff;
+    
+}
+
+.form textarea{
+    resize: none;
+}
+
+.form__input:focus{
+    background-color: #333;
+    outline: none;
+    border-bottom: 3px solid #37F387;
+    
+    
+}
+
+.form input[type ="submit"]{
+background-color: #0FA24D;
+border: none;
+min-height: 30px;
+padding: 20px;
+
+}
+
+.form input[type ="submit"]:hover{
+    background-color: #37F387;
+    border: none;
+    min-height: 30px;
+    padding: 20px;
+    transform: scale(1.02);
+    }
+
+   
+
+.form textarea{
+    min-height: 100px;
+}
+
+.form__img div{
+    padding: 20px;
+    
+}
+
+.img__container div{
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.form__img{
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 400px;
+    order: 2;
+}
+
+.img__container{
+    margin: auto;
+    padding: 40%;
+    
+   
+}
+
+.form__img img{
+    width: 85%;
+    margin: auto;
+  
+
+}
